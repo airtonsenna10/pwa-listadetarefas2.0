@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 20px;
+}
+
+body.escuro {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
