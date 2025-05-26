@@ -98,6 +98,13 @@ body.escuro li {
 
 li button {
   background: #f44336;
+  width: 70px; /* largura fixa para os botões */
+  white-space: nowrap; /* impede quebra dentro do botão */
+}
+
+li span {
+  flex: 1; /* Ocupa todo o espaço disponível */
+  margin-right: 10px;
 }
 
 li button:hover {
