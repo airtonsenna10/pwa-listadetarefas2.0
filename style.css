@@ -76,23 +76,7 @@ ul {
   list-style: none;
   padding: 0;
 }
-/*
-li {
-  background: #f9f9f9;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-  /* ✅ Correção adicionada */
-  word-wrap: break-word; 
-  overflow-wrap: break-word; 
-  white-space: normal; 
-  max-width: 100%;
-}
-*/
 li {
   background: #f9f9f9;
   margin: 10px 0;
@@ -105,7 +89,7 @@ li {
 
   /* 👇 ESSA LINHA é IMPORTANTE */
   word-break: break-word;
-  flex-wrap: wrap;
+  
 }
 
 body.escuro li {
